@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	/*网页背景颜色*/
+	background: #F5F5F5;
+}
+.phone{
+	/*居中*/
+	margin: 0 auto;
+	width: 1226px;
+	height: 628px;
+}
+.phone .phone_left{
+	/*左浮动*/
+	float:left;
+}
+.phone .phone_left img{
+	width:234px;
+	height: 614px;
+}
+.phone .phone_right{
+	width: 992px;
+	height: 614px;
+	/*background: #87CFEB;*/
+	text-align: center;
+	/*列表浮动*/
+	float:left;
+}
+.phone .phone_right .phone_ul li{
+	width:234px;
+	height: 260px;
+	background: #fff;
+	/*左右0上下20 内边距*/
+	padding:20px 0;
+	/*外边距 下左14*/
+	margin:0 0 14px 14px;
+	list-style: none;
+	/*设置li进行浮动*/
+    float:left;
+}
+.phone li a{
+	/*取消文本下划线*/
+	text-decoration: none;
+}
+.phone .phone_right li .phone_img{
+	width:160px;
+	height:160px;
+	/*外边距 左右37 下18*/
+	margin: 0 37px 18px;
+}
+.phone .phone_right li .phone_img img{
+	width: 160px;
+	height:160px;
+}
+.phone li a{
+	text-decoration: none;
+}
+.phone .phone_right li .title{
+	width:214px;
+	height: 21px;
+	font-size: 14px;
+	color:#333;
+	margin:0 10px 2px;
+	font-weight: normal;
+}
+.phone .phone_right li .desc{
+	width:214px;
+	height:18px;
+	color:#b0b0b0;
+	font-size: 12px;
+	margin: 0 10px 10px;
+}
+.phone .phone_right li .price{
+	width:214px;
+	height: 21px;
+	color:#ff6700;
+	font-size:14px;
+	margin:0 10px 14px;	
+}
+.phone .phone_right li .price .price2{
+	color:#b0b0b0;
+	text-decoration: line-through;
+}

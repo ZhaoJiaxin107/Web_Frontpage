@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: #F5F5F5;
+}
+.clear{
+	clear: both;
+}
+.tv{
+	margin: 0 auto;
+	width:1226px;
+	height: 620px;
+}
+.tv .tv_left{
+	float: left;
+	margin-top: 10px;
+}
+.tv .tv_right{
+	width:1300px;
+	height: 520px;
+	text-align: center;
+	/*float: left;*/
+}
+.tv .tv_right .tv_ul li{
+	width: 234px;
+	height: 260px;
+	background: #fff;
+	/*内边距 上下20px 左右0*/
+	padding:20px 0;
+	/*外边距 上 右 下 左*/
+	margin: 0 0 14px 14px;
+	list-style: none;
+	float: left;
+}
+.tv .tv_right .tv_ul .tv10{
+	width: 234px;
+	height: 100px;
+	background: #FFFFFF;
+	margin: 0 0 14px 14px;
+	float: left;
+	text-align: left;
+}
+.tv li a{
+	text-decoration: none;
+}
+.tv .tv_right li .tv_img img{
+	width: 160px;
+	height: 160px;
+}
+.tv .tv_right .tv10 .tv10_content{
+	width: 94px;
+	height: 60px;
+	float: left;
+}
+.tv .tv_right .tv10 .tv10_img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-left: 10px;
+}
+.tv .tv_right li .title{
+	width:214px;
+	height: 21px;
+	color:#333;
+	font-size:14px;
+	/*外边距 上 左右 下*/
+	margin: 0 10px 2px;
+}
+.tv .tv_right .tv_ul .tv10 .titletv10{
+	margin: 20px 110px 5px 30px;
+	font-size: 14px;
+	color: #333333;
+	
+}
+.tv .tv_right li .desc{
+	width:214px;
+	height:18px;
+	color:#b0b0b0;
+	font-size: 12px;
+	margin: 0 10px 10px;
+}
+.tv .tv_right li .price{
+	width:214px;
+	height: 21px;
+	color:#ff6700;
+	font-size: 14px;
+	margin: 0 10px 14px;
+}
+.tv .tv_right .tv_ul .tv10 .price .pricetv10{
+	margin: 0 125px 0 20px;
+	font-size:12px;
+	color:#ff6700;
+	display: inline;
+}
+.tv .tv_right li .price .price2{
+	color:#b0b0b0;
+	text-decoration:line-through;
+}
+.tv .tv_right .tv10 .more{
+	float: left;
+	width: 94px;
+	height: 60px;
+	margin-left: 20px;
+}
+.tv .tv_right .tv10 .more .search_more{
+	font-size: 18px;
+	color: #333333;
+	margin-top: 30px;
+}
+.tv .tv_right .tv10 .more .hot{
+	font-size: 12px;
+	color: #757575;
+	margin-left:0;
+}
+.tv .tv_right .tv10 .arrow{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.tv .tv_title .tv_title_img{
+	width: 1226px;
+	height: 120px;
+	margin-top: 20px;
+}
+.tv .tv_title .tv_title_content{
+	width: 1226px;
+	height: 58px;
+	line-height: 58px;
+	margin-top: 30px;
+	float: left;
+}
+.tv .tv_title .tv_title_content h2{
+	float: left;
+	font-weight: normal;
+}
+.tv .tv_title .tv_title_content p{
+	float: right;
+	width: 64px;
+	height: 45px;
+}
+.tv .tv_title .tv_title_content .hot{
+	width: 32px;
+	height: 45px;
+	margin-right: 20px;
+}
+.tv .tv_title .tv_title_content p:hover{
+	color: #FF6700;
+	cursor: pointer;
+	border-bottom: 2px solid #FF6700;
+}
