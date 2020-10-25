@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #FFFFFF;
+}
+.furniture{
+	/*居中*/
+	margin: 0 auto;
+	width: 1226px;
+	height: 628px;
+	cursor: pointer;
+}
+.furniture .furniture_title{
+	width: 590px;
+	height: 31px;
+	text-align: center;
+	/*内边距 上 左右 下*/
+	margin: 80px auto 10px;
+	font-weight: bold;
+	
+}
+.furniture .furniture_description{
+	width: 199px;
+	height: 56px;
+	color: #A7A7A7;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 0 3px;
+	line-height: 56px;
+	/*border: 1px solid #DB2E2E;*/
+	cursor: auto;
+	margin-top: -20px;
+	/*display: block;*/
+}
+
+.furniture .furniture_left{
+	float: left;
+}
+.furniture .furniture_left .img1{
+	width: 220px;
+	height: 309px;
+	margin: 6px 0;
+}
+.furniture .furniture_left .img2{
+	width: 220px;
+	height: 309px;
+	margin: 10px 0;
+}
+.furniture .furniture_right{
+	float: left;
+	width: 960px;
+	height: 628px;
+}
+.furniture .furniture_right .box_item .box1{
+	position: relative;
+	float: left;
+	width: 220px;
+	height: 309px;
+	background: #f8f8f8;
+	text-align: center;
+	margin: 6px 10px;
+}
+.furniture .furniture_right .box_item .box1 img{
+	width: 220px;
+	height: 220px;
+}
+.furniture .furniture_right .box_item .box1 p{
+	width: 200px;
+	height: 32px;
+	/*内边距 上下 左右*/
+	padding: 0 10px;
+	font-size: 12px;
+	color:#333;
+	font-weight: bold;
+}
+.furniture .furniture_right .box_item .box1 .price{
+	width: 200px;
+	height: 39px;
+	/*内边距 上下 左右*/
+	padding: 0 10px;
+	margin-top: 2px;
+	color:rgb(219,46,46);
+	font-size: 14px;
+}
+.furniture .furniture_right .box_item .box1:hover .cover{
+	background: rgba(0,0,0,.4);
+}
+
+.furniture .furniture_right .box_item .box1 .cover{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 98%;
+	pointer-events: none;
+}
+.furniture .furniture_right .box_item .box1 .cover span{
+	width:100px;
+	height: 50px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left: -50px;
+	margin-top:-25px;
+	display: inline-block;
+	background-color: #C78A49;
+	color:#fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	font-style: normal;
+	border-radius: 5px;
+	display: none;
+}
+.furniture .furniture_right .box_item .box1:hover span{
+	display: block;
+}
